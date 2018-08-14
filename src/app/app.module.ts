@@ -13,6 +13,13 @@ import { CentrosComponent } from './centros/centros.component';
 import { LibroDetalleComponent } from './libro-detalle/libro-detalle.component';
 import { CategoriaDetalleComponent } from './categoria-detalle/categoria-detalle.component';
 import { ListaInicioComponent } from './lista-inicio/lista-inicio.component';
+import { CategoriaBetsellersComponent } from './categoria-betsellers/categoria-betsellers.component';
+import { CategoriaNuevosLanzamientosComponent } from './categoria-nuevos-lanzamientos/categoria-nuevos-lanzamientos.component';
+import { CategoriaClasicosComponent } from './categoria-clasicos/categoria-clasicos.component';
+import { CategoriaInfantilesComponent } from './categoria-infantiles/categoria-infantiles.component';
+import { CategoriaJuvenilesComponent } from './categoria-juveniles/categoria-juveniles.component';
+import { CategoriaSegundaManoComponent } from './categoria-segunda-mano/categoria-segunda-mano.component';
+import { CategoriaComicsComponent } from './categoria-comics/categoria-comics.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +33,14 @@ import { ListaInicioComponent } from './lista-inicio/lista-inicio.component';
     CentrosComponent,
     LibroDetalleComponent,
     CategoriaDetalleComponent,
-    ListaInicioComponent
+    ListaInicioComponent,
+    CategoriaBetsellersComponent,
+    CategoriaNuevosLanzamientosComponent,
+    CategoriaClasicosComponent,
+    CategoriaInfantilesComponent,
+    CategoriaJuvenilesComponent,
+    CategoriaSegundaManoComponent,
+    CategoriaComicsComponent
   ],
   imports: [
     BrowserModule,
