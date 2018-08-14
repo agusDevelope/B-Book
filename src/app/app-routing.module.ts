@@ -7,6 +7,13 @@ import { ContactoComponent} from './contacto/contacto.component';
 import { CentrosComponent} from './centros/centros.component';
 import { LibroDetalleComponent} from './libro-detalle/libro-detalle.component';
 import { CategoriaDetalleComponent} from './categoria-detalle/categoria-detalle.component';
+import { CategoriaBetsellersComponent } from './categoria-betsellers/categoria-betsellers.component';
+import { CategoriaNuevosLanzamientosComponent } from './categoria-nuevos-lanzamientos/categoria-nuevos-lanzamientos.component';
+import { CategoriaClasicosComponent } from './categoria-clasicos/categoria-clasicos.component';
+import { CategoriaInfantilesComponent } from './categoria-infantiles/categoria-infantiles.component';
+import { CategoriaJuvenilesComponent } from './categoria-juveniles/categoria-juveniles.component';
+import { CategoriaSegundaManoComponent } from './categoria-segunda-mano/categoria-segunda-mano.component';
+import { CategoriaComicsComponent } from './categoria-comics/categoria-comics.component';
 
 const routes: Routes = [
   {
@@ -37,6 +44,34 @@ const routes: Routes = [
   path: 'categoria-detalle',
   component: CategoriaDetalleComponent
 },
+{
+  path: 'categoria-betsellers',
+  component: CategoriaBetsellersComponent
+},
+{
+path: 'categoria-nuevos-lanzamientos',
+component: CategoriaNuevosLanzamientosComponent
+},
+{
+  path: 'categoria-clasicos',
+  component: CategoriaClasicosComponent
+},
+{
+path: 'categoria-infantiles',
+component: CategoriaInfantilesComponent
+},
+{
+  path: 'categoria-juveniles',
+  component: CategoriaJuvenilesComponent
+},
+{
+path: 'categoria-segunda-mano',
+component: CategoriaSegundaManoComponent
+},
+{
+  path: 'categoria-comics',
+  component: CategoriaComicsComponent
+  },
   { path: '', redirectTo: '/inicio', pathMatch: 'full' }
 ];
 
