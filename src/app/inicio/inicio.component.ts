@@ -20,7 +20,7 @@ export class InicioComponent implements OnInit {
 
   getInicio(): void {
     this.inicioService.getInicios()
-    .subscribe(inicio => this.inicio = inicio.slice(0, 12));
+    .subscribe(inicio => this.inicio = inicio.slice(0, 16));
   }
 
 }

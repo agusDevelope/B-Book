@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Centros } from '../centros';
 import { CentrosService } from '../centros.service';
+import * as L from 'leaflet';
 
 
 @Component({

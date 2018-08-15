@@ -13,4 +13,8 @@ export const inicioList: Inicio[] = [
     {url: 'assets/l/orgpre.jpg' , titulo: 'Orgullo y prejucio', autor: 'Jane Austen', editorial: 'Narrativa', precio: '$60.00'},
     {url: 'assets/l/rebelion.jpg' , titulo: 'Rebelión en la granja', autor: 'George Orwell', editorial: 'DeBolsillo', precio: '$75.00'},
     {url: 'assets/l/viajecentro.jpg' , titulo: 'Viaje al centro de la tierra', autor: 'Julio Verne', editorial: 'Astral', precio: '$89.00'},
+    {url: 'assets/l/hinvisibñe.png' , titulo: 'El hombre invisible', autor: 'H.G Wells', editorial: 'DeBolsillo', precio: '$95.00'},
+    {url: 'assets/l/orgpre.jpg' , titulo: 'Orgullo y prejucio', autor: 'Jane Austen', editorial: 'Narrativa', precio: '$60.00'},
+    {url: 'assets/l/rebelion.jpg' , titulo: 'Rebelión en la granja', autor: 'George Orwell', editorial: 'DeBolsillo', precio: '$75.00'},
+    {url: 'assets/l/viajecentro.jpg' , titulo: 'Viaje al centro de la tierra', autor: 'Julio Verne', editorial: 'Astral', precio: '$89.00'},
 ];

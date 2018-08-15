@@ -1,3 +1,8 @@
+.container {
+    width: 100%;
+    min-height: calc(100vh - 200px);
+}
+
 .card{
     width: 205px;
     height: 250px;

@@ -1,7 +1,10 @@
-
-.contenedor{
+.row .card {
+    margin: auto;
+  }
+/* 
+.contenedor{ */
     /* height: 704px; */
-    margin:  auto;
+ /*    margin:  auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     align-items: center;
@@ -25,7 +28,7 @@
 
 figure{
     width: 265px;
-    height: 306px;
+    height: 170px;
     margin: 0;
     position: relative;
     transition: all ease .5s;
@@ -42,9 +45,9 @@ figure .trasera{
 }
 
 figure .frontal{
-    display: block;
+    display: block; */
 /* backface-visibility: hidden; */
-}
+/* }
 
 figure .trasera{
     position: absolute;
@@ -81,9 +84,9 @@ a{
 p{
     font-family: 'Ranga', cursive;
     font-size: 20px;
-}
+} */
 
-
+/* 
 @media screen and (max-width:992px){
     figure .trasera{
         backface-visibility: visible;
@@ -99,4 +102,5 @@ p{
     .contenedor{
         width: 100%;
     }
-}
+} */
+
