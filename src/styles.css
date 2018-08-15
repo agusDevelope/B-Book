@@ -1,15 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
+.card {
+    border: none;
+}
+
 @media (max-width: 575.98px) { 
-    .container {
-        width:20%;
-        height: 40px;
+    .grid{
+    display: block;
+
     }
 
-    .contenedor_tarjeta{
-    transform: perspective(600px) rotateY(0deg)
-
-} }
+} 
 
 /* @media (min-width: 576px) and (max-width: 767.98px) { }
 

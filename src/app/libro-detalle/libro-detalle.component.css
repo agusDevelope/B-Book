@@ -3,3 +3,14 @@
     height: 250px;
     margin-bottom: 325px;
 }
+
+.card {
+    border: none;
+}
+
+.card article{
+    display: flex;
+    width: 1000px;
+    height: 600px;
+
+}
